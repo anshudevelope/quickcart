@@ -22,7 +22,6 @@
             <h4 class="logo">QuickCart</h4>
         </a>
 
-
         <!-- Navbar -->
         <div>
             <ul id="navbar">
@@ -183,7 +182,6 @@
         <div class="view-more"><a href="store.html">View More</a></div>
     </section>
 
-
     <!-- News Letter Section -->
 
     <section id="newsletter" class="section-p1 section-m1">
@@ -258,6 +256,24 @@
         </div>
     </footer>
 
+
+    <script>
+        var mainImg = document.getElementById("MainImg");
+        var smallImg = document.getElementsByClassName('small-img');
+
+        smallImg[0].onclick = function(){
+            mainImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function(){
+            mainImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function(){
+            mainImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function(){
+            mainImg.src = smallImg[3].src;
+        }
+    </script>
 
 
 
