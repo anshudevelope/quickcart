@@ -693,8 +693,10 @@ footer .copyright {
 }
 
 #prodetails .single-pro-details p{
-    padding: 20px 0 10px 0;
-    font-size: 18px;
+    color: #000000;
+    padding: 10px 0 0px 0;
+    font-size: 15px;
+    letter-spacing: 3px;
 }
 
 #prodetails .single-pro-details h3{
