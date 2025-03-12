@@ -938,7 +938,7 @@ p {
 
 /* Contact Page */
 
-#contact-hero{
+#contact-hero {
     background-color: #088178;
     height: 40vh;
     display: flex;
@@ -948,7 +948,8 @@ p {
     padding: 15px;
 }
 
-#contact-hero h2, p{
+#contact-hero h2,
+p {
     color: #ffffff;
 }
 
@@ -1070,11 +1071,95 @@ p {
     color: #000000;
 }
 
+/* Cart Page */
 
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    /* white-space: wrap; */
+    word-wrap: break-word;
+}
 
+#cart table img {
+    width: 70px;
+}
 
+#cart table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
 
+#cart table td:nth-child(2) {
+    width: 150px;
+    text-align: center;
+}
 
+#cart table td:nth-child(3) {
+    width: 250px;
+    text-align: center;
+    text-overflow: inherit;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(5) input {
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+#cart table thead {
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+
+#cart table thead td{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 18px 0;
+}
+
+#cart table tbody tr td{
+    padding-top: 20px;
+}
+
+#cart table tbody td{
+    font-size: 16px;
+}
+
+#cart-add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#coupon h3{
+    padding-bottom: 15px;
+}
+
+#coupon input{
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    bottom: 1px solid #e2e9e1;
+}
+
+#coupon button{
+    background-color: #088178;
+    color: #ffffff;
+}
 
 
 

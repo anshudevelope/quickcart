@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickCart Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body>
+    <!-- Header Starts -->
+
+    <section id="header">
+
+        <!-- Logo -->
+        <a href="index.html">
+            <h4 class="logo">QuickCart</h4>
+        </a>
+
+
+        <!-- Navbar -->
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a class="active" href="cart.html" id="lg-bag"><i class="fa-solid fa-cart-shopping"></i></a></i></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <!-- Hero section -->
+
+    <section id="contact-hero">
+        <h2>Your Cart</h2><br>
+        <p>Use Code <strong>HOLI50OFF</strong> & Get flat <strong>50% OFF</strong> on each product.</p>
+    </section>
+
+    <!-- Cart Section -->
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>REMOVE</td>
+                    <td>IMAGE</td>
+                    <td>PRODUCT</td>
+                    <td>PRICE</td>
+                    <td>QUANTITY</td>
+                    <td>SUBTOTAL</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> <a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="images/products/p1-1.jpg" alt=""></td>
+                    <td>Women's Vichitra Silk Embroidered A-line Kurta</td>
+                    <td>Rs. 999.00</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>Rs. 999.00</td>
+                </tr>
+                <tr>
+                    <td> <a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="images/products/p2-4.jpg" alt=""></td>
+                    <td>Women's Cotton Anarkali Printed V-Neck Kurta with Palazzo & Dupatta</td>
+                    <td>Rs. 741.90</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>Rs. 741.90</td>
+                </tr>
+                <tr>
+                    <td> <a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="images/products/p3-1.jpg" alt=""></td>
+                    <td>Nermosa Women Cotton Block Printed Kurta Pant With Dupatta</td>
+                    <td>Rs. 665.00</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>Rs. 665.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Coupon Code Section -->
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Coupon Code">
+                <button class="btn">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>Rs. 2405.90</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>FREE</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>Rs. 2405.90</strong></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="section-p1">
+        <div class="col">
+            <a href="index.html">
+                <h3 class="logo">QuickCart</h3>
+            </a>
+            <h5>Contact</h5>
+            <p><strong>Address: </strong>Solapur Rd, Bangaramma Sajjan Campus, Kanpur UP</p>
+            <p><strong>Phone: </strong>+91 7687345634</p>
+            <p><strong>Hours: </strong>09:00 - 18:00. (Mon - Sat)</p>
+            <div class="follow">
+                <h5>Follow Us</h5>
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col col-2">
+            <h4>Know Us</h4>
+            <a href="#">About us</a>
+            <a href="#">Return Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Delivery Info</a>
+        </div>
+
+        <div class="col col-2">
+            <h4>My Account</h4>
+            <a href="#">Sign up</a>
+            <a href="#">View Cart</a>
+            <a href="#">Track Order</a>
+            <a href="#">Help</a>
+            <a href="#">Rewards</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>from App store or Google Play Store</p>
+            <div class="row">
+                <img src="images/apple-store.jpg">
+                <img src="images/google-store.png">
+            </div>
+            <div class="payment">
+                <p>Secured Payment Gateways</p>
+                <img src="images/secure-payments.jpg">
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2025, QuickCart ! All Right Reserved
+        </div>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
