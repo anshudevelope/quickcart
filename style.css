@@ -1073,6 +1073,11 @@ p {
 
 /* Cart Page */
 
+#cart{
+    overflow: visible;
+    overflow-x: scroll;
+}
+
 #cart table {
     width: 100%;
     border-collapse: collapse;
@@ -1144,7 +1149,8 @@ p {
     margin-bottom: 30px;
 }
 
-#coupon h3{
+#coupon h3,
+#subtotal h3{
     padding-bottom: 15px;
 }
 
@@ -1156,9 +1162,31 @@ p {
     bottom: 1px solid #e2e9e1;
 }
 
-#coupon button{
+#coupon button,
+#subtotal button{
     background-color: #088178;
     color: #ffffff;
+    padding: 12px 20px;
+}
+
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
+
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal table td{
+    width: 50%;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #e2e9e1;
 }
 
 
@@ -1323,6 +1351,12 @@ p {
 
     #form-details .team div {
         padding-left: 30px;
+    }
+
+    /* Cart Page */
+
+    #contact-hero {
+        height: 20vh;
     }
 
 }
@@ -1535,6 +1569,21 @@ p {
     #form-details form {
         width: 100%;
         margin-bottom: 50px;
+    }
+
+    /* Cart page */
+
+    #cart-add {
+        flex-direction: column;
+    }
+
+    #coupon {
+        width: 100%;
+    }
+
+    #subtotal {
+        width: 100%;
+        padding: 30px;
     }
 
 }
